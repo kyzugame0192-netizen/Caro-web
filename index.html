@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Caro Game AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CARO GAME</h1>
+
+<div id="menu">
+    <button onclick="startGame('PVP')">Player vs Player</button>
+    <button onclick="startGame('AI')">Player vs AI</button>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div id="popup" class="hidden">
+    <h2 id="winnerText"></h2>
+    <button onclick="backToMenu()">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
